@@ -1,0 +1,9 @@
+.titleheader {
+	background: url('art/header.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 60px;
+}
