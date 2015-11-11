@@ -11,7 +11,7 @@ a[ id= "about" ]:target ~ #about {
     -webkit-transform: translateY( -500px );
     transform: translateY( -500px );
 }
-a[ id= "get" ]:target ~ #main get.panel {
+a[ id= "get" ]:target ~ #get article.panel {
     -webkit-transform: translateY( -1000px );
     transform: translateY( -1000px );
 }
