@@ -7,3 +7,17 @@
 	border-bottom: 1px solid #dbdbdb;
     padding-bottom: 60px;
 }
+
+.texto {
+	padding-top: 65px;
+}
+
+.books, .raices, .tech {
+	font-style: italic;
+	display: inline-block;
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+}
