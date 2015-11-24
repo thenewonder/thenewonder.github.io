@@ -9,7 +9,7 @@
  *Scrolling
  */
 
-a[ id= "articles" ]:target ~ #articles {
+a[ id= "escritos" ]:target ~ #escritos {
     -webkit-transform: translateY( 0px);
     transform: translateY( 0px );
 }
@@ -54,7 +54,7 @@ a[ id= "around" ]:target ~ #main article.panel {
 	margin-top: 55px;
 }
 
-.articles {
+.escritos {
     border-bottom: 1px solid #dbdbdb;
     padding-bottom: 60px;
 }
