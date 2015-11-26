@@ -37,6 +37,12 @@
 	margin-bottom: 35px;
 }
 
+.centradas {
+	margin: 0 auto;
+	display: block;
+}
+
+
 .texto {
 	margin-top: -30px;
 	padding-top: 85px;
