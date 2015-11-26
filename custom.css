@@ -23,6 +23,19 @@ a[ id= "around" ]:target ~ #main article.panel {
     transform: translateY( -1000px );
 }
 
+
+.navbar-default {
+  background-color: #07194A;
+  color: #E60E59;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+ .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #07194A;
+    color: #E60E59;
+}
+
 .jumbotron {
 	background: url('img/headerblue.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -68,6 +81,7 @@ a[ id= "around" ]:target ~ #main article.panel {
     border-bottom: 1px solid #dbdbdb;
     padding-bottom: 60px;
 }
+
 
 a.mybtn {
 	border: 1px solid #ffffff;
@@ -118,8 +132,9 @@ blockquote footer {
 }
 
 p span {
-	background-color: #e52364;
 	letter-spacing: 1.8;
 	font-family: sans-serif;
+	padding: 2px 4px;
+	color: #e52364;
 }
 
