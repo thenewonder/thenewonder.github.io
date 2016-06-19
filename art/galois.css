@@ -1,0 +1,66 @@
+.navbar-default {
+  background-color: #07194A;
+  color: #E60E59;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+ .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #07194A;
+    color: #E60E59;
+}
+
+.jumbotron {
+	background: url('galois-header.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 400px;
+}
+
+.jumbotron h1 {
+	background-color: #004c98;
+	color: #ffffff;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	margin-top: 65px;
+}
+
+
+.container h3 {
+	border-bottom: 3px solid #1a77ff;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	margin-bottom: 35px;
+}
+
+.centradas {
+	margin: 0 auto;
+	display: block;
+}
+
+
+.texto {
+	margin-top: -30px;
+	padding-top: 85px;
+	padding-bottom: 60px;
+	background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+p {
+	font-size: 18px;
+}
+
+.footer {
+	padding-top: 30px;
+	height: 120px;
+}
+
+.list-inline li a {
+	text-transform: uppercase;
+    font-size: 10px;
+}
