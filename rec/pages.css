@@ -1,3 +1,16 @@
+@font-face {
+   font-family: Avenir;
+   src: url(fonts/Avenir.ttc) format("truetype");
+   font-family: AvenirNext;
+   src: url(fonts/Avenir Next.ttc) format("truetype");
+   font-family: AachenStd;
+   src: url(fonts/AachenStd-Bold.otf) format("truetype");
+   font-family: Alako;
+   src: url(fonts/ALAKO.TTF) format("truetype");
+   font-family: AmericanType;
+   src: url(fonts/AmericanTypewriterStd-LtCnd.otf) format("truetype");
+}
+
 .navbar-default {
   background-color: #07194A;
   color: #E60E59;
@@ -11,7 +24,7 @@
 }
 
 .jumbotron {
-	background: url('portada.png') no-repeat center center fixed;
+	background: url('portada2.png') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -29,19 +42,6 @@
 }
 
 /*Fuentes y tamaños*/
-
-@font-face {
-   font-family: Avenir;
-   src: url(fonts/Avenir.ttc) format("truetype");
-   font-family: AvenirNext;
-   src: url(fonts/Avenir Next.ttc) format("truetype");
-   font-family: AachenStd;
-   src: url(fonts/AachenStd-Bold.otf) format("truetype");
-   font-family: Alako;
-   src: url(fonts/ALAKO.TTF) format("truetype");
-   font-family: AmericanType;
-   src: url(fonts/AmericanTypewriterStd-LtCnd.otf) format("truetype");
-}
 
 .fontClean {
 	 font-family: Avenir;
@@ -64,7 +64,7 @@
 	border-bottom: 3px dotted #7c7c7c;
 	display: inline-block;
 	padding: 5px 10px;
-	margin-bottom: 45px;
+	margin-bottom: 35px;
 	margin-top: 55px;
 
 }
@@ -75,22 +75,31 @@
 	border-bottom: 3px dotted #7c7c7c;
 	display: inline-block;
 	padding: 5px 10px;
-	margin-bottom: 45px;
+	margin-bottom: 35px;
 	margin-top: 55px;
 }
 
 .pSmall {
-	font-size: 1.4em;
+	font-size: 2.1em;
 	text-align: center;
 	border-bottom: 3px dotted #7c7c7c;
 	display: inline-block;
 	padding: 5px 10px;
-	margin-bottom: 45px;
+	margin-bottom: 35px;
 	margin-top: 55px;
 }
 
 .container h3 {
 	border-bottom: 3px solid #1a77ff;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	margin-bottom: 35px;
+	font-size: 3.3em;
+}
+
+h2 {
+	border-bottom: 3px solid #e52364;
 	display: inline-block;
 	padding: 5px 10px;
 	font-family: sans-serif;
@@ -115,6 +124,12 @@ p {
 	font-size: 18px;
 }
 
+p span {
+	letter-spacing: 1.8;
+	padding: 2px 4px;
+	color: #e52364;
+}
+
 .footer {
 	padding-top: 30px;
 	height: 120px;
@@ -123,4 +138,8 @@ p {
 .list-inline li a {
 	text-transform: uppercase;
     font-size: 10px;
+}
+
+img {
+	margin-top: 30px;
 }
