@@ -26,11 +26,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #f04b4c;
+  color: #9db8c3;
 }
 a:hover,
 a:focus {
-  color: #f04b4c;
+  color: #9db8c3;
 }
 h1,
 h2,
@@ -46,13 +46,13 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #E32A33;
+  background-color: #2b2f32;
 }
 
 /*F05F40*/
 
 .bg-dark {
-  background-color: #4e4e4e;
+  background-color: #202020;
   color: #000;
   padding-bottom: 100px;
 }
@@ -481,7 +481,7 @@ a.mybtn:hover {
 }
 
 #contact {
-  background-color: #3a3a3a;
+  background-color: #2b2f32;
   padding-top: 30px;
   padding-bottom: 5px;
 }
