@@ -1,0 +1,140 @@
+@media (min-width: 980px) {
+	body {
+		padding-top: 50px; 
+	} 
+} 
+
+
+/*
+ *Scrolling
+ */
+
+a[ id= "escritos" ]:target ~ #escritos {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "about" ]:target ~ #about {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
+}
+a[ id= "around" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+
+
+.navbar-default {
+  background-color: #07194A;
+  color: #E60E59;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+ .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #07194A;
+    color: #E60E59;
+}
+
+.jumbotron {
+	background: url('img/headerblue.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 600px;
+}
+
+.jumbotron {
+	text-align: center;
+}
+
+.jumbotron h1 {
+	background-color: #004c98;
+	color: #ffffff;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	margin-top: 180px;
+}
+
+.container h2 {
+	border-bottom: 3px solid #1a77ff;
+	display: inline-block;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	margin-bottom: 45px;
+	margin-top: 55px;
+}
+
+.escritos {
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 60px;
+}
+
+.img-article {
+	margin: 0 auto;
+}
+
+.about {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 60px;
+}
+
+
+a.mybtn {
+	border: 1px solid #ffffff;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600px;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+
+.around {
+	background: url('img/banner.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 60px;
+}
+
+.around h2 {
+	color: #fff;
+}
+
+.footer {
+	padding-top: 30px;
+	height: 120px;
+}
+
+blockquote p {
+	color: #fff;
+
+}
+
+blockquote footer {
+	color: #fff;
+}
+
+.list-inline li a {
+	text-transform: uppercase;
+    font-size: 10px;
+}
+
+p span {
+	letter-spacing: 1.8;
+	font-family: sans-serif;
+	padding: 2px 4px;
+	color: #e52364;
+}
+
