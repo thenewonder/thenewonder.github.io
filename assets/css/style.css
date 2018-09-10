@@ -28,6 +28,46 @@
   height: auto!important;
 }
 
+
+.jumbo-blog {
+  margin-bottom: 0!important;
+}
+
+.jumbo-blog h2{
+  margin-top: 4rem;
+}
+
+
+/*COVERS BLOG*/
+
+.blog-campanas {
+  background: url('../../blog/img/galois-header.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+.blog-palabras {
+  background: url('../../blog/img/palabras-header.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+.blog-millennials {
+  background: url('../../blog/img/millennials-header.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+
 .mouse-wrap, .scroll-wrap {
   position: absolute;
   bottom: 50px;
