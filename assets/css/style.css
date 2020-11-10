@@ -38,6 +38,17 @@
 }
 
 
+/*
+Photo hover
+*/
+
+.img-portait:hover {
+   content: url('../images/isaac-gomez-balderas-1.jpeg');
+}
+
+
+
+
 /*COVERS BLOG*/
 
 .blog-campanas {
