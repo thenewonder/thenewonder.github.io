@@ -47,12 +47,91 @@ Photo hover
 }
 
 
+/*
+Porfolio Card
+*/
+
+.main-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+  min-height: 700px;
+  position: relative;
+  padding: 30px;
+  z-index: 10;
+  }
+
+.lead-main-card {
+  padding-top: 50px;
+}
+
+.img-main-portfolio {
+  border-radius: 12px;
+}
+
+.img-main-portfolio:hover {
+  content: url('../images/portfolio-isaac-gomez-balderas-1.png');
+  border-radius: 12px;
+}
+
+.portfolio-title {
+  padding-top: 600px;
+}
+
+@media (min-width: 768px) {
+  .portfolio-title {
+  padding-top: 320px;
+  }
+}
+
+.portfolio-cards-1 {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+  margin-top: 30px;
+}
+
+.portfolio-cards-2 {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  overflow: hidden;
+  height: auto;
+}
+
+.portfolio-cover {
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.portfolio-thumbnails {
+  border-radius: 12px;
+  margin-bottom: 30px;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 600ms;
+}
+
+.portfolio-thumbnails:hover {
+  transform: scale(1.1);
+  border-radius: 12px;
+}
+
+
 
 
 /*COVERS BLOG*/
 
 .blog-campanas {
-  background: url('../../blog/img/galois-header.png') no-repeat center center fixed;
+  background: url('../../assets/images/O14A0464.jpg') no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
