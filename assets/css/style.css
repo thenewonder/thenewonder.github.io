@@ -126,6 +126,17 @@ Porfolio Card
 }
 
 
+/*
+Portfolio Mini-Cards
+*/
+
+.pb_pricing_v1.portfolio-mini {
+  border-radius: 12px;
+}
+
+.portfolio-mini {
+  border-radius: 12px 12px 0px 0px;
+}
 
 
 /*COVERS BLOG*/
