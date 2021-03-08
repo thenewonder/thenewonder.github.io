@@ -178,6 +178,21 @@ Portfolio Mini-Cards
   height: 400px;
 }
 
+.blog-default {
+  background: url("../images/cover-main-page.jpeg") no-repeat center center;
+  background-size: cover;
+
+}
+
+.blog-default h2 span{
+  background-color: #010B40;
+  color: #fff;
+}
+
+.blog-default p span{
+  background-color: rgba(0, 0, 0, .80);
+  color: #fff;
+}
 
 .mouse-wrap, .scroll-wrap {
   position: absolute;
