@@ -71,6 +71,16 @@ Porfolio Card
   z-index: 10;
   }
 
+  .main-card-blog {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+  min-height: 200px;
+  position: relative;
+  padding: 30px;
+  z-index: 10;
+  }
+
 .lead-main-card {
   padding-top: 50px;
 }
@@ -86,6 +96,9 @@ Porfolio Card
 
 .portfolio-title {
   padding-top: 600px;
+}
+.blog-title {
+  padding-top: 100px;
 }
 
 @media (min-width: 768px) {
@@ -180,17 +193,16 @@ Portfolio Mini-Cards
 
 .blog-default {
   background: url("../images/cover-main-page.jpeg") no-repeat center center;
+  background-color: rgba(0, 0, 0, .80);
   background-size: cover;
 
 }
 
 .blog-default h2 span{
-  background-color: #010B40;
   color: #fff;
 }
 
 .blog-default p span{
-  background-color: rgba(0, 0, 0, .80);
   color: #fff;
 }
 
@@ -350,7 +362,7 @@ Portfolio Mini-Cards
   .pb_slide_testimonial_sync_v1 .pb_slider_content .slick-slide blockquote {
     margin-bottom: 40px; }
   .pb_slide_testimonial_sync_v1 .pb_slider_content .slick-slide img {
-    height: 170px; }
+    height: auto !important;  }
   .pb_slide_testimonial_sync_v1 .pb_slider_content .slick-slide .heading {
     font-size: 18px;
     margin-bottom: 0; }
